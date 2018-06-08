@@ -37,40 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["boostrapita/back.jpeg","71dbc8ed2d425553bb55d362f44b2612"],
-["boostrapita/back.jpg","21b936f92302fa067feb8a944c5ca827"],
-["boostrapita/back2.jpg","0935940a919b4f6260af60dba71b3a43"],
-["boostrapita/carte.html","4c0e48d0c080e40f99371a7994779059"],
-["boostrapita/contact.html","43ab2e0385a8ca6ee3ffb131536be525"],
-["boostrapita/icon1.png","2f0a03d07f9a6be93146e3bf61294e6d"],
-["boostrapita/icon2.png","eece678641f0848bfcc9bbf960bd2604"],
-["boostrapita/icon3.png","c29f2e102b4a2d9eb701c54cbea1f373"],
-["boostrapita/icon4.png","3b10aed7bafcdc02afebbf78ecea27df"],
-["boostrapita/icon5.png","02fcd7cfb1379dcc02bbf307f00ad350"],
-["boostrapita/icon6.png","18baac547b2a7bfcfcd64386c836bf5e"],
-["boostrapita/index.html","5f6499aad719903c6e64c7356803a207"],
-["boostrapita/livre.jpg","33bf449f2e301a88d8283a2b9c09d2dd"],
-["boostrapita/logo.png","4611289ada7bee172b4a27e5a52c6b8e"],
-["boostrapita/manifest.json","e924ef627191c95159f0af96c609306c"],
-["boostrapita/photo1.html","9cb1c71396bf44035311dba50e18d43b"],
-["boostrapita/photo3.html","16e859eb3f9fca7b5f45e7052756335b"],
-["boostrapita/photos.html","3fe52767bfdcacb81737c00a289e8166"],
-["boostrapita/pita.png","f00f6d4e3adafc7a85426faeba33c9d4"],
-["boostrapita/pita1.jpg","42807c6dfc617cef9f892d1516ceb8d8"],
-["boostrapita/pita2.jpg","58d9f33fcb99291ef69a2fe454f65487"],
-["boostrapita/pita3.jpg","aea3614d34536d7153e6e081949a5ecc"],
-["boostrapita/pita4.jpg","e94e099d7249fb891675d823c28da035"],
-["boostrapita/pita5.jpg","aea3614d34536d7153e6e081949a5ecc"],
-["boostrapita/pizza.jpeg","63d65a4c6c18e17706f5dbd6a5e8fde7"],
-["boostrapita/pizza.jpg","cdfe49b7e5716bdcab30e50a56abeecd"],
-["boostrapita/pizza.png","6456d8e867b233a8ca005d44a11916d6"],
-["boostrapita/pizza2.jpg","5b6e7436e347ad430b957c61acc73d7d"],
-["boostrapita/pizza3.jpg","1882be9ecc6fed08bf16d7aa97084e93"],
-["boostrapita/restaurant.html","4bca96ec90a11f89a3fecf8aedb3d3af"],
-["boostrapita/style.css","14d9fb37277ce6739f6c3d4a6c3fa834"],
-["boostrapita/style2.css","c31d1e85df67519c05c88cc840a92e3b"],
-["boostrapita/title.jpg","3ada848ef34c74af3e0a74bf0d14d6f2"],
-["boostrapita/titre.jpg","7be3e923590d99283f650d846d31db5c"]];
+var precacheConfig = [["boostrapita/README.md","d1a479f0cfd35176c8f97ecc90ea47b8"],["boostrapita/back.jpeg","71dbc8ed2d425553bb55d362f44b2612"],["boostrapita/back.jpg","21b936f92302fa067feb8a944c5ca827"],["boostrapita/back2.jpg","0935940a919b4f6260af60dba71b3a43"],["boostrapita/carte.html","b79460cf8acd32804309d5f790eafc12"],["boostrapita/contact.html","026fb3dae0b656b5ad9552ca583db80f"],["boostrapita/icon1.png","2f0a03d07f9a6be93146e3bf61294e6d"],["boostrapita/icon2.png","eece678641f0848bfcc9bbf960bd2604"],["boostrapita/icon3.png","c29f2e102b4a2d9eb701c54cbea1f373"],["boostrapita/icon4.png","3b10aed7bafcdc02afebbf78ecea27df"],["boostrapita/icon5.png","02fcd7cfb1379dcc02bbf307f00ad350"],["boostrapita/icon6.png","18baac547b2a7bfcfcd64386c836bf5e"],["boostrapita/index.html","b51882afb8abf25069558148399f137d"],["boostrapita/livre.jpg","33bf449f2e301a88d8283a2b9c09d2dd"],["boostrapita/logo.png","4611289ada7bee172b4a27e5a52c6b8e"],["boostrapita/manifest.json","e924ef627191c95159f0af96c609306c"],["boostrapita/photo1.html","69ba4a6f6a62551e894e1e9a09b1f62a"],["boostrapita/photo3.html","28b866abc8d61a5fdf4b0a64532b675e"],["boostrapita/photos.html","d9a60f1f2bb4d513e71ad3af438185f9"],["boostrapita/pita.png","f00f6d4e3adafc7a85426faeba33c9d4"],["boostrapita/pita1.jpg","42807c6dfc617cef9f892d1516ceb8d8"],["boostrapita/pita2.jpg","58d9f33fcb99291ef69a2fe454f65487"],["boostrapita/pita3.jpg","aea3614d34536d7153e6e081949a5ecc"],["boostrapita/pita4.jpg","e94e099d7249fb891675d823c28da035"],["boostrapita/pita5.jpg","aea3614d34536d7153e6e081949a5ecc"],["boostrapita/pizza.jpeg","63d65a4c6c18e17706f5dbd6a5e8fde7"],["boostrapita/pizza.jpg","cdfe49b7e5716bdcab30e50a56abeecd"],["boostrapita/pizza.png","6456d8e867b233a8ca005d44a11916d6"],["boostrapita/pizza2.jpg","5b6e7436e347ad430b957c61acc73d7d"],["boostrapita/pizza3.jpg","1882be9ecc6fed08bf16d7aa97084e93"],["boostrapita/restaurant.html","6c305ed3df2f34c7bc6eb2099ef12646"],["boostrapita/style.css","14d9fb37277ce6739f6c3d4a6c3fa834"],["boostrapita/style2.css","c31d1e85df67519c05c88cc840a92e3b"],["boostrapita/title.jpg","3ada848ef34c74af3e0a74bf0d14d6f2"],["boostrapita/titre.jpg","7be3e923590d99283f650d846d31db5c"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
